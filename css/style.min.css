@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  background: #08090D;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:active, a:hover {
+  color: #FF7A46;
+  text-decoration-line: underline;
+}
+
+a, button {
+  font-family: "Poppins";
+  font-style: normal;
+  cursor: pointer;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.header {
+  max-width: 1178px;
+  height: 94px;
+  vertical-align: baseline;
+  margin: 40px auto 0px;
+  background: #101114;
+  box-shadow: 0px -50px 250px rgba(97, 124, 125, 0.56);
+  border-radius: 10px;
+}
+.header .menu {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .menu .logo {
+  margin-left: 50px;
+}
+.header .menu .logo img {
+  height: 65px;
+}
+.header .menu .main-nav {
+  display: flex;
+}
+.header .menu .main-nav .main-nav__btn {
+  color: #fff;
+  font-family: "Tajawal";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 14px;
+  margin-right: 50px;
+}
+.header .menu .main-nav .main-nav__btn:active, .header .menu .main-nav .main-nav__btn:hover {
+  color: #FF7A46;
+}
+
+.main {
+  text-align: center;
+  color: #fff;
+}
+.main .main__content {
+  margin-top: 70px;
+}
+.main h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  margin: 40px 0px 0px 0px;
+}
+.main h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+.main .btn {
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  border-radius: 10px;
+  margin: 0 29px 50px 29px;
+  color: #fff;
+}
+.main .main__btn-about {
+  background: #495482;
+}
+.main .main__btn-works {
+  background: #FCA17D;
+}
+
+.about {
+  max-height: 700px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.about .about__left {
+  width: 559px;
+}
+.about .about__left .about__me {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+}
+.about .about__left .resume {
+  margin: 50px 0px 100px 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  background: #FCA17D;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+.about .about__right {
+  margin-top: 100px;
+}
+
+.works {
+  margin-top: 50px;
+}
+.works .works__title {
+  display: flex;
+  justify-content: space-between;
+}
+.works .works__title h2 {
+  margin-top: 150px;
+}
+.works .works__example {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.works .works__example .el {
+  margin: 10px;
+}
+.works .works__example .el img {
+  width: 365px;
+  height: 200px;
+}
+
+.contact {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .contact__me h2 {
+  margin-top: 25px;
+}
+.contact .contact__me .link a {
+  padding: 10px 0px 10px 0px;
+}
+.contact .contact__me .link a img {
+  vertical-align: middle;
+}
+.contact .contact__me .contact__me-mail {
+  margin-top: 75px;
+}
+.contact .contact__me .contact__me-phone {
+  margin: 25px 0px;
+}
+.contact .astr-contact {
+  margin-bottom: 100px;
+}
